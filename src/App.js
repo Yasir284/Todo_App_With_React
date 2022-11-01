@@ -18,12 +18,6 @@ function App() {
     });
   }, []);
 
-  // useEffect(() => {
-  //   if (todos.length > 0) {
-  //     localStorage.setItem("todos", JSON.stringify(todos));
-  //   }
-  // }, [todos]);
-
   return (
     <TodoContext.Provider value={{ todos, dispatch }}>
       <Header />

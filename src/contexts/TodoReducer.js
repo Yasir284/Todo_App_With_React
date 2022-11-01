@@ -9,15 +9,16 @@ import {
 
 const TodoReducer = (state, action) => {
   let returnState = [];
+
   switch (action.type) {
     case LOCAL_TODO: {
       const localTodo = localStorage.getItem("todos");
       console.log(JSON.parse(localTodo));
-      if (localTodo.length > 0) {
+      if (localTodo !== null && localTodo.length > 0) {
         returnState = state = JSON.parse(localTodo);
         break;
       } else {
-        returnState = state;
+        returnState = [];
         break;
       }
     }
@@ -32,7 +33,6 @@ const TodoReducer = (state, action) => {
 
     case COMPLETED_TODO: {
       let taskId = state.findIndex((todo) => todo.id === action.payload.id);
-      // console.log(action.payload);
       state[taskId].isCompleted = action.payload.isCompleted;
       returnState = state.filter((todo) => todo.id !== "");
       break;
