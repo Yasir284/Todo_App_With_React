@@ -1,6 +1,6 @@
 ![badge](https://img.shields.io/badge/MADE%20WITH-HTML,%20CSS%20&%20JS-blue)
 ![badge](https://img.shields.io/badge/TIME%20TAKEN-10%20to%2012%20hrs-red)
-[![badge](https://img.shields.io/badge/SEE%20DEMO%20-VISIT-green)](https://react-todo-app.netlify.app/)
+[![badge](https://img.shields.io/badge/SEE%20DEMO%20-VISIT-green)](https://react-todo-app-yasir.netlify.app/)
 
 # Todo App with React
 
@@ -8,7 +8,7 @@
 
 - It took me 5-6 hrs to complete this project. The link of project is given below:
 
-  [![badge](https://img.shields.io/badge/LINK%20OF-PROJECT-green)](https://react-todo-app.netlify.app/)
+  [![badge](https://img.shields.io/badge/LINK%20OF-PROJECT-green)](https://react-todo-app-yasir.netlify.app/)
 
 ## 🛠 Skills learned
 
